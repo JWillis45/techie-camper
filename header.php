@@ -19,17 +19,19 @@
   			
   		<?php
 
-		$defaults = array(
+$defaults = array(
     
-    		'menu_class'      => 'nav nav-pills',
+    'menu_class'      => 'nav nav-pills',
     
-		);
+);
 
-		wp_nav_menu( $defaults );
 
-		?>
+wp_nav_menu( $defaults );
+
+?>
   		</div> <!-- end of nav --> 
 
+<hr>
 
 	
   	</div> <!-- end of header -->
