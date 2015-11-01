@@ -12,23 +12,35 @@
 	     background-position: 0% 50%;
 }
 
-.nav {border-bottom:1px solid;}
-
-.nav ul{
-		display: table;
-    	float: none;
-    	margin: 0 auto;
-    	font-family: 'Quicksand', sans-serif;
-    	font-weight: 400;
-    	font-size: 15px;
-    	font-style:italic;
-    	border-bottom:none;
-
+.nav {margin:0 auto; 
+	  text-align:center;
+	  margin-top:3px;
 }
 
-.nav li a{border-radius: 0px;
-		  border-right:1px solid;
+.nav ul {list-style:none;
+		 display:inline-block;
+		 font-family: 'Quicksand', sans-serif;
+		 font-weight: 400;
+		 font-size: 15px;
+		 font-style:italic;
+    	 padding:0px 0px;
+}
 
+.nav li {display:inline;
+		 padding:0px 0px;
+}
+
+.nav a {float:left;
+	    color:#000;
+		text-decoration:none;
+		padding:0px 0px;
+		padding:5px 15px;
+}
+
+hr {height:1px;
+	background-color:#000;
+	border:none;
+	margin-top:-3px;
 }
 
 .category {font-family: 'Quicksand', sans-serif;
