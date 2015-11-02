@@ -7,10 +7,9 @@
 
      <?php the_content(); ?>
       <p>
-      	Category: 
-
-      <?php the_category(', ') . " " . the_tags(__('Tags: '), ', ', ' | ') . edit_post_link(__('Edit'), ''); ?>
-
+   	
+	  <small><?php the_time('F jS, Y'); ?> by <?php the_author_posts_link(); ?></small>
+      
       </p>
 
 	<?php endwhile; else: ?>
