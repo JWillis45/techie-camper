@@ -6,7 +6,9 @@
 
 .header {
 		 background-image:url("images/header-pic-xs.jpg");
-		 height: 339px;
+		 height: 344px;
+		 padding:0px;
+		 margin:0px;
 	     background-repeat: no-repeat;
 	     background-size: 100%;
 	     background-position: 0% 50%;
@@ -72,7 +74,14 @@ hr {height:1px;
 		    padding-top:14px;
 }
 
-.main-image {width: 100%;
+.category-box {height:100px;
+			   width: 150px;
+			   background-image:url("images/category-box.jpg");
+			   background-repeat: no-repeat;
+			   background-size: 100%;
+}
+
+.feature-image {width: 100%;
 
  
 }
