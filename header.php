@@ -30,28 +30,19 @@ wp_nav_menu( $defaults );
 
 ?>
   		</div> <!-- end of nav --> 
-
 <hr>
-
-	
   	</div> <!-- end of header -->
 
-	
 <div class="category">
 
 	<?php
-
 		if(( is_home() )){
-
     		echo '<h2>- Start Your Adventure -<h2>';
-
 }
 		else{
-
-    	echo the_category('<h2>','</h2>');
+        echo the_category('<h2>','</h2>');
 }
-
 ?>
 
-	</h2>
+</h2>
 </div> <!-- end of category title -->

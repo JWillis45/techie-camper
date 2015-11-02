@@ -28,8 +28,10 @@ if ($features -> have_posts()) : while ($features -> have_posts()) : $features -
 </div>
 
 <div class="row">     
-    <div class="col-xs-12 category-box">
-      <?php the_title();?>
+    <div class="col-xs-12">
+      <div class="title-box">
+        <?php the_title();?>
+      </div>
     </div>
 </div>
 
